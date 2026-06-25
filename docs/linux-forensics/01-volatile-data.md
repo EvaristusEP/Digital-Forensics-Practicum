@@ -50,7 +50,6 @@ james
 toor
 ```
 
-### Screenshot
 
 ![Login](../../screenshots/praktikum1/01-login.png)
 
@@ -72,7 +71,6 @@ Mengaktifkan hak akses administrator agar investigator dapat memperoleh seluruh 
 sudo su
 ```
 
-### Screenshot
 
 ![Root Access](../../screenshots/praktikum1/02-root-access.png)
 
@@ -94,7 +92,6 @@ Mengetahui lama sistem berjalan sejak proses boot terakhir.
 w
 ```
 
-### Screenshot
 
 ![System Uptime](../../screenshots/praktikum1/03-system-uptime.png)
 
@@ -116,7 +113,6 @@ Mengidentifikasi pengguna yang pernah masuk ke sistem.
 last -a
 ```
 
-### Screenshot
 
 ![Login History](../../screenshots/praktikum1/04-login-history.png)
 
@@ -138,7 +134,6 @@ Mengidentifikasi koneksi jaringan yang sedang aktif pada sistem.
 netstat
 ```
 
-### Screenshot
 
 ![Netstat](../../screenshots/praktikum1/05-netstat.png)
 
@@ -160,7 +155,6 @@ Menampilkan daftar file yang sedang diakses oleh proses aktif.
 lsof > openfiles.txt
 ```
 
-### Screenshot
 
 ![Open Files](../../screenshots/praktikum1/06-open-files.png)
 
@@ -182,7 +176,6 @@ Mengidentifikasi module kernel yang sedang dimuat.
 lsmod
 ```
 
-### Screenshot
 
 ![Kernel Module](../../screenshots/praktikum1/07-lsmod.png)
 
@@ -210,7 +203,6 @@ apt install auditd
 aureport
 ```
 
-### Screenshot
 
 ![Audit Report](../../screenshots/praktikum1/08-aureport.png)
 
@@ -236,7 +228,6 @@ id james
 ausearch -ui 1000 --interpret
 ```
 
-### Screenshot
 
 ![User Activity](../../screenshots/praktikum1/09-user-activity.png)
 
@@ -262,7 +253,6 @@ cd /var/spool/cron
 cd /etc/cron.daily
 ```
 
-### Screenshot
 
 ![Cron](../../screenshots/praktikum1/10-cron.png)
 
@@ -284,7 +274,6 @@ Melihat riwayat perintah yang pernah dijalankan pengguna.
 cat ~/.bash_history
 ```
 
-### Screenshot
 
 ![Bash History](../../screenshots/praktikum1/11-bash-history.png)
 
@@ -306,7 +295,6 @@ Mengidentifikasi perangkat yang pernah berkomunikasi dalam jaringan lokal.
 arp
 ```
 
-### Screenshot
 
 ![ARP Cache](../../screenshots/praktikum1/12-arp-cache.png)
 
@@ -328,7 +316,6 @@ Menampilkan seluruh proses yang sedang berjalan.
 ps auxww
 ```
 
-### Screenshot
 
 ![Running Process](../../screenshots/praktikum1/13-running-process.png)
 
@@ -354,7 +341,6 @@ cd /proc
 ls
 ```
 
-### Screenshot
 
 ![Proc Filesystem](../../screenshots/praktikum1/14-proc-filesystem.png)
 
@@ -376,7 +362,6 @@ Mengidentifikasi informasi yang tersimpan pada clipboard.
 xclip -o
 ```
 
-### Screenshot
 
 ![Clipboard](../../screenshots/praktikum1/15-clipboard.png)
 
@@ -398,7 +383,6 @@ Mengidentifikasi nama host dari sistem yang sedang dianalisis.
 hostname
 ```
 
-### Screenshot
 
 ![Hostname](../../screenshots/praktikum1/16-hostname.png)
 
@@ -420,7 +404,6 @@ Mengidentifikasi port TCP yang terbuka.
 nmap -sT localhost
 ```
 
-### Screenshot
 
 ![TCP Scan](../../screenshots/praktikum1/17-tcp-scan.png)
 
@@ -442,7 +425,6 @@ Mengidentifikasi port UDP yang terbuka.
 nmap -sU localhost
 ```
 
-### Screenshot
 
 ![UDP Scan](../../screenshots/praktikum1/18-udp-scan.png)
 
