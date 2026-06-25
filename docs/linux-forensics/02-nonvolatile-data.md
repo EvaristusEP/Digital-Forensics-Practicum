@@ -50,7 +50,6 @@ Password:
 toor
 ```
 
-### Screenshot
 
 ![Root Access](../../screenshots/praktikum2/01-root-access.png)
 
@@ -72,7 +71,6 @@ Mengidentifikasi versi kernel Linux yang digunakan pada sistem.
 uname -r
 ```
 
-### Screenshot
 
 ![Kernel Version](../../screenshots/praktikum2/02-kernel-version.png)
 
@@ -98,7 +96,6 @@ cat /etc/passwd
 cat /etc/shadow
 ```
 
-### Screenshot
 
 ![User Account](../../screenshots/praktikum2/03-user-account.png)
 
@@ -120,7 +117,6 @@ Menampilkan daftar username tanpa informasi tambahan.
 cut -d: -f1 /etc/passwd
 ```
 
-### Screenshot
 
 ![Username List](../../screenshots/praktikum2/04-username-list.png)
 
@@ -142,7 +138,6 @@ Melihat histori login pengguna pada sistem Linux.
 last -f /var/log/wtmp
 ```
 
-### Screenshot
 
 ![Login History](../../screenshots/praktikum2/05-login-history.png)
 
@@ -164,7 +159,6 @@ Mengidentifikasi aktivitas autentikasi dan otorisasi pada sistem.
 cat /var/log/auth.log
 ```
 
-### Screenshot
 
 ![Authentication Log](../../screenshots/praktikum2/06-authentication-log.png)
 
@@ -198,7 +192,6 @@ Masukkan:
 Y
 ```
 
-### Screenshot
 
 ![Install RKHunter](../../screenshots/praktikum2/07-install-rkhunter.png)
 
@@ -220,7 +213,6 @@ Melakukan pemeriksaan terhadap kemungkinan adanya malware maupun rootkit.
 rkhunter --check --rwo
 ```
 
-### Screenshot
 
 ![RKHunter Scan](../../screenshots/praktikum2/08-rkhunter-scan.png)
 
