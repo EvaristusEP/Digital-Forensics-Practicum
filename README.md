@@ -27,7 +27,7 @@ Materi yang dipelajari:
 
 📄 Dokumentasi:
 
-- [Praktikum 1 - Acquire Volatile Data in Linux System](docs/praktikum1-volatile-data-linux.md)
+- [Praktikum 1 - Acquire Volatile Data in Linux System](docs/linux-forensics/01-volatile-data.md)
 
 ---
 
