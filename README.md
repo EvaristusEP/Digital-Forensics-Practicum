@@ -1,173 +1,213 @@
 # Praktikum Digital Forensics & Investigation
 
-Repository ini berisi dokumentasi hasil praktikum mata kuliah Digital Forensics & Investigation.
+Repository ini berisi dokumentasi hasil praktikum mata kuliah **Digital Forensics & Investigation**.
 
-Daftar Praktikum
+## Daftar Praktikum
 
 ### Praktikum 1: Acquire Volatile Data in Linux System
 
-System Uptime
+Materi yang dipelajari:
 
-Login History
+- System Uptime Investigation
+- Login History Analysis
+- Active Network Connection Analysis
+- Open Files Investigation
+- Loaded Kernel Modules Inspection
+- Audit Framework Analysis
+- User Activity Tracking
+- Scheduled Task Investigation
+- Bash History Analysis
+- ARP Cache Analysis
+- Running Process Investigation
+- `/proc` Filesystem Analysis
+- Clipboard Analysis
+- Hostname Identification
+- TCP Port Scanning
+- UDP Port Scanning
 
-Network Connection
+📄 Dokumentasi:
 
-Open Files
+- [Praktikum 1 - Acquire Volatile Data in Linux System](docs/praktikum1-volatile-data-linux.md)
 
-Running Process
-
-ARP Cache
-
-Port Scanning
-
-📄 Dokumentasi: docs/praktikum1-volatile-data-linux.md
+---
 
 ### Praktikum 2: Acquire Non-Volatile Data in Linux System
 
-Kernel Information
+Materi yang dipelajari:
 
-User Account Analysis
+- Linux File System Investigation
+- User Account Analysis
+- Authentication Log Analysis
+- Installed Package Inspection
+- Kernel Information Analysis
+- Rootkit Detection using RKHunter
+- File Integrity Verification
 
-Authentication Log
+📄 Dokumentasi:
 
-RKHunter Scanning
+- [Praktikum 2 - Acquire Non-Volatile Data in Linux System](docs/praktikum2-nonvolatile-data-linux.md)
 
-📄 Dokumentasi: docs/praktikum2-nonvolatile-data-linux.md
+---
 
-### Praktikum 3: Recover Data from Linux Memory Dump
+### Praktikum 3: Memory Dump Analysis & Data Recovery
 
-Memory Dump Analysis
+Materi yang dipelajari:
 
-PhotoRec Recovery
+- Memory Dump Acquisition
+- Memory Analysis
+- Deleted File Recovery
+- PhotoRec Data Recovery
+- Digital Evidence Identification
 
-File Carving
+📄 Dokumentasi:
 
-📄 Dokumentasi: docs/praktikum3-memory-dump-recovery.md
+- [Praktikum 3 - Memory Dump Analysis & Data Recovery](docs/praktikum3-memory-dump-recovery.md)
 
-### Praktikum 4: Data Recovery & Artefact Analysis (hiddenG.img)
+---
 
-Foremost
+### Praktikum 4: Data Carving & Digital Artefact Recovery
 
-PhotoRec
+Materi yang dipelajari:
 
-Scalpel
+- Foremost
+- PhotoRec
+- Scalpel
+- Bulk Extractor
+- Binwalk
+- Digital Artefact Comparison
 
-Bulk Extractor
+📄 Dokumentasi:
 
-Binwalk
+- [Praktikum 4 - Data Carving & Digital Artefact Recovery](docs/praktikum4-data-recovery-hiddenG.md)
 
-📄 Dokumentasi: docs/praktikum4-data-recovery-hiddenG.md
+---
 
-### Praktikum 5: Android Reverse Engineering Overview
+### Praktikum 5: Android Reverse Engineering & Mobile Security
 
-Mobile Security Assessment
+Materi yang dipelajari:
 
-Static vs Dynamic Analysis
+- Android Reverse Engineering
+- Mobile Security Assessment
+- Static Analysis
+- Dynamic Analysis
+- Android Security Tools Preparation
 
-Tools Preparation
+📄 Dokumentasi:
 
-📄 Dokumentasi: docs/praktikum5-mobile-security-overview.md
+- [Praktikum 5 - Android Reverse Engineering & Mobile Security](docs/praktikum5-mobile-security-overview.md)
 
-### Praktikum 6: Static Analysis InsecureShop
+---
 
-APK Structure
+### Praktikum 6: Static Analysis using InsecureShop
 
-JADX Analysis
+Materi yang dipelajari:
 
-Manifest Review
+- APK Structure Analysis
+- JADX Decompilation
+- AndroidManifest Review
+- Hardcoded Credential Detection
+- WebView Analysis
+- SharedPreferences Analysis
+- APKTool
+- MobSF
 
-Hardcoded Credential
+📄 Dokumentasi:
 
-WebView Analysis
+- [Praktikum 6 - Static Analysis using InsecureShop](docs/praktikum6-static-analysis-insecureshop.md)
 
-📄 Dokumentasi: docs/praktikum6-static-analysis-insecureshop.md
+---
 
-### Praktikum 7: Dynamic Analysis InsecureShop
+### Praktikum 7: Dynamic Analysis using InsecureShop
 
-Android Emulator
+Materi yang dipelajari:
 
-ADB
+- Android Emulator
+- Android Debug Bridge (ADB)
+- Deep Link Testing
+- Logcat Analysis
+- SharedPreferences Extraction
+- Burp Suite
+- Frida Runtime Instrumentation
 
-Deep Link Testing
+📄 Dokumentasi:
 
-Logcat Analysis
+- [Praktikum 7 - Dynamic Analysis using InsecureShop](docs/praktikum7-dynamic-analysis-insecureshop.md)
 
-Burp Suite
+---
 
-Frida Hooking
+### Praktikum 8: Mobile Security Mini Challenge
 
-📄 Dokumentasi: docs/praktikum7-dynamic-analysis-insecureshop.md
+Materi yang dipelajari:
 
-### Praktikum 8: Mini Challenge Mobile Security
+- Hardcoded Credential Assessment
+- Exported Activity Analysis
+- HTTP Traffic Inspection
+- Frida Hooking
+- Vulnerability Reporting
 
-Hardcoded Credential Finding
+📄 Dokumentasi:
 
-Exported Activity
+- [Praktikum 8 - Mobile Security Mini Challenge](docs/praktikum8-mini-challenge-mobile-security.md)
 
-Traffic Interception
-
-Frida Challenge
-
-Vulnerability Reporting
-
-📄 Dokumentasi: docs/praktikum8-mini-challenge-mobile-security.md
+---
 
 ### Praktikum 9: Investigating Web Attacks
 
-Evidence Validation
+Materi yang dipelajari:
 
-Initial Access
+- Evidence Validation
+- Source Identification
+- Initial Access Analysis
+- SQL Injection Investigation
+- Unauthorized Data Access Analysis
+- Persistence Analysis
+- Database Impact Assessment
+- Application Log Analysis
+- Network Forensics
+- Timeline Reconstruction
+- Root Cause Analysis
 
-SQL Injection Investigation
+📄 Dokumentasi:
 
-IDOR Analysis
+- [Praktikum 9 - Investigating Web Attacks](docs/praktikum9-investigating-web-attacks.md)
 
-Persistence Analysis
-
-Timeline Reconstruction
-
-📄 Dokumentasi: docs/praktikum9-investigating-web-attacks.md
+---
 
 ### Praktikum 10: TOR Forensics Suite
 
-Detector Engine
+Materi yang dipelajari:
 
-Artifact Analyzer
+- TOR Forensics Overview
+- Location Validation Engine
+- Dark Web Artifact Analysis
+- Streamlit Interface
+- Command Line Interface (CLI)
 
-CLI & Streamlit Interface
+📄 Dokumentasi:
 
-📄 Dokumentasi: docs/praktikum10-tor-forensics-suite.md
+- [Praktikum 10 - TOR Forensics Suite](docs/praktikum10-tor-forensics-suite.md)
 
-Tools
+---
 
-Ubuntu Linux
+## Tools
 
-Kali Linux
-
-PhotoRec
-
-Foremost
-
-Scalpel
-
-Bulk Extractor
-
-Binwalk
-
-Android Studio
-
-ADB
-
-JADX
-
-APKTool
-
-Burp Suite
-
-Frida
-
-Wireshark
-
-TShark
-
-Git & GitHub
+- Ubuntu Linux
+- Kali Linux
+- Autopsy
+- Foremost
+- PhotoRec
+- Scalpel
+- Bulk Extractor
+- Binwalk
+- Android Studio
+- Android Debug Bridge (ADB)
+- JADX
+- APKTool
+- Burp Suite Community
+- Frida
+- MobSF
+- Wireshark
+- TShark
+- Nmap
+- Git
+- GitHub
